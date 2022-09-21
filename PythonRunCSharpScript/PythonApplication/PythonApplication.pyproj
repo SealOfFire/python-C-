@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>19fb181f-28e1-48b5-867a-06d02223638b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RunNodejs.py</StartupFile>
+    <StartupFile>RunNodejs2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonApplication.py" />
+    <Compile Include="RunNodejs2.py" />
     <Compile Include="RunNodejs.py" />
   </ItemGroup>
   <ItemGroup>

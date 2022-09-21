@@ -28,6 +28,11 @@ with open(path) as f:
 	lines = f.read()
 code = code % (lines, functionName)
 
+# 输入参数列表
+
+# 输出参数列表
+
+
 #code = """console.log(""aaa"");"""
 # 代码存储为临时文件
 tmp = tempfile.gettempdir()
@@ -35,8 +40,8 @@ file = tempfile.TemporaryFile(mode="w+")
 # 脚本代码写入到临时文件中
 file.write(code);
 file.flush();
-savePath = os.path.dirname(os.path.abspath(__file__))
-savePath = os.path.join(path, "codes_sample.js")
+#savePath = os.path.dirname(os.path.abspath(__file__))
+#savePath = os.path.join(path, "codes_sample.js")
 
 # 执行脚本代码
 command = """node -e "%s" """ % (code)
