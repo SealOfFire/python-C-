@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>19fb181f-28e1-48b5-867a-06d02223638b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication.py</StartupFile>
+    <StartupFile>RunNodejs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,17 +23,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonApplication.py" />
+    <Compile Include="RunNodejs.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|DeepAIEnviroments" />
     <InterpreterReference Include="Global|VisualStudio|DeepAIEnviroments" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="codes_ample\CodeTest.cs" />
-    <Content Include="codes_ample\CodeTest2.cs" />
+    <Content Include="codes_sample\CodeTest.cs" />
+    <Content Include="codes_sample\CodeTest2.cs" />
+    <Content Include="codes_sample\javascript_test3.js" />
+    <Content Include="codes_sample\javascript_test2.js" />
+    <Content Include="codes_sample\javascript_test1.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="codes_ample\" />
+    <Folder Include="codes_sample\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
